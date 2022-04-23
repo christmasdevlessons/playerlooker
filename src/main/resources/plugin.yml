@@ -1,0 +1,5 @@
+name: LookingAtPlayers
+version: '${project.version}'
+main: com.christmas.lookingatplayers.LookingAtPlayers
+api-version: 1.18
+description: plugin to track if a player is looking at an entity /player
