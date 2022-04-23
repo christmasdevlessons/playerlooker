@@ -16,7 +16,6 @@ public class PlayerInteractListener implements Listener {
             Player p = e.getPlayer(); // This gives you the player that actually DOES THE EVENT
             if(p.getInventory().getItemInMainHand().getType().equals(Material.CARROT_ON_A_STICK)){
                 Player targetP = getTargetPlayer(p);
-                a
                 targetP.addPotionEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 100, 1));
             }
         }
